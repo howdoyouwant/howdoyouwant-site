@@ -298,23 +298,54 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
+  <!-- PROOF CAROUSEL (real, sourced results — replaces empty testimonials) -->
   <section class="section-tight">
     <div class="wrap">
       <div class="section-head">
-        <div class="eyebrow" data-i18n="testimonials_eyebrow">What clients say</div>
-        <h2 data-i18n="testimonials_title">Real reviews, as we earn them</h2>
+        <div class="eyebrow" data-i18n="testimonials_eyebrow">Proven elsewhere</div>
+        <h2 data-i18n="testimonials_title">Real, sourced results — while we earn our own</h2>
+        <p class="section-note" style="margin-top:.8rem;">
+          <span data-i18n="proof_carousel_note">These are public, verifiable case studies from other companies, not our own clients yet — we're upfront about that.</span>
+          <a href="about.html" style="color:var(--pink); text-decoration:underline;" data-i18n="proof_carousel_link">See why on our About page →</a>
+        </p>
       </div>
-      <div class="testimonial-grid">
-        <div class="testimonial-empty">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 6.9L12 17l-6.3 3.7 1.7-6.9L2 8.2l7.1-.6L12 2Z"/></svg>
-          <h3 data-i18n="testimonials_empty_title">We're new — you could be our first review</h3>
-          <p data-i18n="testimonials_empty_body">We'd rather show you nothing than show you something fake. Real reviews from real clients will replace this the moment we have them.</p>
-          <button class="btn-primary" data-contact-trigger data-contact-context="review">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 6.9L12 17l-6.3 3.7 1.7-6.9L2 8.2l7.1-.6L12 2Z"/></svg>
-            <span data-i18n="testimonials_leave_review">Already worked with us? Leave a review</span>
-          </button>
+
+      <div class="proof-carousel" id="proofCarousel">
+        <div class="proof-carousel-track" id="proofTrack">
+
+          <div class="proof-slide">
+            <div class="proof-slide-stat">+64%</div>
+            <h3 class="proof-slide-title" data-i18n="proof1_title">Reviews or menu instantly, with one tap</h3>
+            <p class="proof-slide-body" data-i18n="proof1_body">Someone taps their phone on a card and in seconds leaves a 5-star review or sees your menu or catalog, without typing anything. Air Canada Vacations got this same result with its customers.</p>
+          </div>
+
+          <div class="proof-slide">
+            <div class="proof-slide-stat">+1.400%</div>
+            <h3 class="proof-slide-title" data-i18n="proof2_title">More people follow you and remember you</h3>
+            <p class="proof-slide-body" data-i18n="proof2_body">Posting content consistently gets more people to follow you and think of you when they need what you offer. Duolingo grew its following this way with a single TikTok campaign.</p>
+          </div>
+
+          <div class="proof-slide">
+            <div class="proof-slide-stat">+1.170%</div>
+            <h3 class="proof-slide-title" data-i18n="proof3_title">A better website brings a lot more people</h3>
+            <p class="proof-slide-body" data-i18n="proof3_body">Redesigning and organizing your website well can multiply how many people visit and how long they stay. That's what DocuSign achieved in just 90 days after renewing its site.</p>
+          </div>
+
+          <div class="proof-slide">
+            <div class="proof-slide-stat">+260%</div>
+            <h3 class="proof-slide-title" data-i18n="proof4_title">More people find you searching on Google</h3>
+            <p class="proof-slide-body" data-i18n="proof4_body">Updating and improving what you already have, instead of creating something new, can multiply how many people find you on Google. That's how Backlinko did it, just by updating an old article.</p>
+          </div>
+
         </div>
+        <div class="proof-carousel-dots" id="proofDots"></div>
+      </div>
+
+      <div style="text-align:center; margin-top:1.8rem;">
+        <button class="btn-primary" data-contact-trigger data-contact-context="review">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 6.9L12 17l-6.3 3.7 1.7-6.9L2 8.2l7.1-.6L12 2Z"/></svg>
+          <span data-i18n="testimonials_leave_review">Already worked with us? Leave a review</span>
+        </button>
       </div>
     </div>
   </section>
@@ -448,7 +479,8 @@ window.HDYW_I18N = {
     staffing_teaser:"Want to know how we're set up and who you'd actually work with?", staffing_teaser_link:"Meet the studio →",
     reassure_line:"Free 15-min call first. No pitch, no obligation — we just want to understand what you need.",
     teaser_title_v2:"Three packages, one clear price each", teaser_body_v2:"Google ranking, 5-star reviews in seconds, a menu or catalog built for mobile, weekly content, and a website that sells — pick the size that fits, from €99/month.", teaser_price_v2:"Small, Medium, Large", teaser_cta_v2:"See all 3 packages →",
-    testimonials_eyebrow:"What clients say", testimonials_title:"Real reviews, as we earn them", testimonials_empty_title:"We're new — you could be our first review", testimonials_empty_body:"We'd rather show you nothing than show you something fake. Real reviews from real clients will replace this the moment we have them.", testimonials_leave_review:"Already worked with us? Leave a review",
+    testimonials_eyebrow:"Proven elsewhere", testimonials_title:"Real, sourced results — while we earn our own", testimonials_empty_title:"We're new — you could be our first review", testimonials_empty_body:"We'd rather show you nothing than show you something fake. Real reviews from real clients will replace this the moment we have them.", testimonials_leave_review:"Already worked with us? Leave a review",
+    proof_carousel_note:"These are public, verifiable case studies from other companies, not our own clients yet — we're upfront about that.", proof_carousel_link:"See why on our About page →", proof1_title:"Reviews or menu instantly, with one tap", proof1_body:"Someone taps their phone on a card and in seconds leaves a 5-star review or sees your menu or catalog, without typing anything. Air Canada Vacations got this same result with its customers.", proof2_title:"More people follow you and remember you", proof2_body:"Posting content consistently gets more people to follow you and think of you when they need what you offer. Duolingo grew its following this way with a single TikTok campaign.", proof3_title:"A better website brings a lot more people", proof3_body:"Redesigning and organizing your website well can multiply how many people visit and how long they stay. That's what DocuSign achieved in just 90 days after renewing its site.", proof4_title:"More people find you searching on Google", proof4_body:"Updating and improving what you already have, instead of creating something new, can multiply how many people find you on Google. That's how Backlinko did it, just by updating an old article.",
     contact_modal_title:"How do you want to reach us?", contact_opt_whatsapp:"WhatsApp", contact_opt_call:"Call", contact_opt_email:"Email", contact_email_subject:"How do you want it?", aria_contact:"Contact us",
     eyebrow:"An IT studio that asks first",
     hero_lead:"How do you want it",
@@ -507,7 +539,8 @@ window.HDYW_I18N = {
     staffing_teaser:"¿Quieres saber cómo nos organizamos y con quién trabajarías de verdad?", staffing_teaser_link:"Conoce el estudio →",
     reassure_line:"Antes, una llamada gratis de 15 min. Sin discurso de ventas, sin compromiso: solo queremos entender qué necesitas.",
     teaser_title_v2:"Tres paquetes, un precio claro cada uno", teaser_body_v2:"Posicionamiento en Google, reseñas de 5 estrellas en segundos, un menú o catálogo pensado para el móvil, contenido semanal y una web que vende: elige el tamaño que encaje, desde 99 €/mes.", teaser_price_v2:"Small, Medium, Large", teaser_cta_v2:"Ver los 3 paquetes →",
-    testimonials_eyebrow:"Lo que dicen los clientes", testimonials_title:"Reseñas reales, a medida que las ganamos", testimonials_empty_title:"Somos nuevos: podrías ser nuestra primera reseña", testimonials_empty_body:"Preferimos no mostrarte nada antes que mostrarte algo falso. Las reseñas reales de clientes reales sustituirán esto en cuanto las tengamos.", testimonials_leave_review:"¿Ya has trabajado con nosotros? Déjanos una reseña",
+    testimonials_eyebrow:"Ya demostrado", testimonials_title:"Resultados reales y verificables, mientras ganamos los nuestros", testimonials_empty_title:"Somos nuevos: podrías ser nuestra primera reseña", testimonials_empty_body:"Preferimos no mostrarte nada antes que mostrarte algo falso. Las reseñas reales de clientes reales sustituirán esto en cuanto las tengamos.", testimonials_leave_review:"¿Ya has trabajado con nosotros? Déjanos una reseña",
+    proof_carousel_note:"Son casos públicos y verificables de otras empresas, no de nuestros propios clientes todavía. Lo decimos claramente.", proof_carousel_link:"Descubre por qué en nuestra página Sobre nosotros →", proof1_title:"Reseñas o menú al instante, con solo un toque", proof1_body:"Alguien acerca el móvil a una tarjeta y en segundos te deja una reseña de 5 estrellas o ve tu carta o catálogo, sin escribir nada. Air Canada Vacations consiguió esto mismo con sus clientes.", proof2_title:"Más gente te sigue y te recuerda", proof2_body:"Publicar contenido de forma constante hace que más gente te siga y piense en ti cuando necesite lo que ofreces. Duolingo multiplicó así sus seguidores con una sola campaña en TikTok.", proof3_title:"Una web mejor trae mucha más gente", proof3_body:"Rediseñar y ordenar bien tu página web puede multiplicar cuánta gente la visita y cuánto tiempo se queda. Esto fue lo que consiguió DocuSign en solo 90 días tras renovar su web.", proof4_title:"Más gente te encuentra buscando en Google", proof4_body:"Actualizar y mejorar lo que ya tienes, en vez de crear algo nuevo, puede multiplicar cuánta gente te encuentra buscando en Google. Así lo logró Backlinko, solo actualizando un artículo antiguo.",
     contact_modal_title:"¿Cómo quieres contactarnos?", contact_opt_whatsapp:"WhatsApp", contact_opt_call:"Llamar", contact_opt_email:"Correo", contact_email_subject:"¿Cómo lo quieres?", aria_contact:"Contáctanos",
     eyebrow:"Un estudio de IT que pregunta primero",
     hero_lead:"¿Cómo lo quieres",
@@ -566,7 +599,8 @@ window.HDYW_I18N = {
     staffing_teaser:"Vols saber com ens organitzem i amb qui treballaries de veritat?", staffing_teaser_link:"Coneix l'estudi →",
     reassure_line:"Abans, una trucada gratuïta de 15 min. Sense discurs de vendes, sense compromís: només volem entendre què necessites.",
     teaser_title_v2:"Tres paquets, un preu clar cadascun", teaser_body_v2:"Posicionament a Google, ressenyes de 5 estrelles en segons, un menú o catàleg pensat per al mòbil, contingut setmanal i una web que ven: tria la mida que encaixi, des de 99 €/mes.", teaser_price_v2:"Small, Medium, Large", teaser_cta_v2:"Veure els 3 paquets →",
-    testimonials_eyebrow:"El que diuen els clients", testimonials_title:"Ressenyes reals, a mesura que les guanyem", testimonials_empty_title:"Som nous: podries ser la nostra primera ressenya", testimonials_empty_body:"Preferim no mostrar-te res abans que mostrar-te alguna cosa falsa. Les ressenyes reals de clients reals substituiran això tan bon punt les tinguem.", testimonials_leave_review:"Ja has treballat amb nosaltres? Deixa'ns una ressenya",
+    testimonials_eyebrow:"Ja demostrat", testimonials_title:"Resultats reals i verificables, mentre guanyem els nostres", testimonials_empty_title:"Som nous: podries ser la nostra primera ressenya", testimonials_empty_body:"Preferim no mostrar-te res abans que mostrar-te alguna cosa falsa. Les ressenyes reals de clients reals substituiran això tan bon punt les tinguem.", testimonials_leave_review:"Ja has treballat amb nosaltres? Deixa'ns una ressenya",
+    proof_carousel_note:"Són casos públics i verificables d'altres empreses, no dels nostres propis clients encara. Ho diem clarament.", proof_carousel_link:"Descobreix per què a la nostra pàgina Sobre nosaltres →", proof1_title:"Ressenyes o menú a l'instant, amb un sol toc", proof1_body:"Algú acosta el mòbil a una targeta i en segons et deixa una ressenya de 5 estrelles o veu la teva carta o catàleg, sense escriure res. Air Canada Vacations va aconseguir això mateix amb els seus clients.", proof2_title:"Més gent et segueix i et recorda", proof2_body:"Publicar contingut de manera constant fa que més gent et segueixi i pensi en tu quan necessiti el que ofereixes. Duolingo va multiplicar així els seus seguidors amb una sola campanya a TikTok.", proof3_title:"Una web millor porta molta més gent", proof3_body:"Redissenyar i ordenar bé la teva pàgina web pot multiplicar quanta gent la visita i quant de temps s'hi queda. Això va aconseguir DocuSign en només 90 dies després de renovar la seva web.", proof4_title:"Més gent et troba buscant a Google", proof4_body:"Actualitzar i millorar el que ja tens, en lloc de crear-ne de nou, pot multiplicar quanta gent et troba buscant a Google. Així ho va aconseguir Backlinko, només actualitzant un article antic.",
     contact_modal_title:"Com vols contactar-nos?", contact_opt_whatsapp:"WhatsApp", contact_opt_call:"Trucar", contact_opt_email:"Correu", contact_email_subject:"Com ho vols?", aria_contact:"Contacta'ns",
     eyebrow:"Un estudi de IT que pregunta primer",
     hero_lead:"Com ho vols",
@@ -625,7 +659,8 @@ window.HDYW_I18N = {
     staffing_teaser:"Vill ni veta hur vi är organiserade och vem ni faktiskt skulle jobba med?", staffing_teaser_link:"Möt studion →",
     reassure_line:"Först ett gratis 15-minuterssamtal. Ingen säljpitch, inga förpliktelser — vi vill bara förstå vad ni behöver.",
     teaser_title_v2:"Tre paket, ett tydligt pris vardera", teaser_body_v2:"Google-ranking, femstjärniga recensioner på några sekunder, en meny eller katalog byggd för mobilen, nytt innehåll varje vecka och en webbplats som säljer — välj den storlek som passar, från 99 €/månad.", teaser_price_v2:"Small, Medium, Large", teaser_cta_v2:"Se alla 3 paket →",
-    testimonials_eyebrow:"Vad kunder säger", testimonials_title:"Riktiga recensioner, allt eftersom vi förtjänar dem", testimonials_empty_title:"Vi är nya — ni kan bli vår första recension", testimonials_empty_body:"Vi visar hellre ingenting än något falskt. Riktiga recensioner från riktiga kunder ersätter det här så fort vi har dem.", testimonials_leave_review:"Redan jobbat med oss? Lämna en recension",
+    testimonials_eyebrow:"Redan bevisat", testimonials_title:"Riktiga, källbelagda resultat — medan vi förtjänar våra egna", testimonials_empty_title:"Vi är nya — ni kan bli vår första recension", testimonials_empty_body:"Vi visar hellre ingenting än något falskt. Riktiga recensioner från riktiga kunder ersätter det här så fort vi har dem.", testimonials_leave_review:"Redan jobbat med oss? Lämna en recension",
+    proof_carousel_note:"Det här är offentliga, verifierbara case studies från andra företag, inte våra egna kunder ännu — vi är öppna med det.", proof_carousel_link:"Se varför på vår Om oss-sida →", proof1_title:"Recensioner eller meny direkt, med en beröring", proof1_body:"Någon håller mobilen mot ett kort och lämnar på några sekunder en femstjärnig recension eller ser er meny, utan att skriva något. Air Canada Vacations fick samma resultat med sina kunder.", proof2_title:"Fler följer dig och kommer ihåg dig", proof2_body:"Att publicera innehåll konsekvent gör att fler följer dig och tänker på dig när de behöver det du erbjuder. Så växte Duolingo sina följare med en enda TikTok-kampanj.", proof3_title:"En bättre webbplats ger mycket fler besökare", proof3_body:"Att designa om och organisera din webbplats kan mångdubbla hur många som besöker och hur länge de stannar. Det uppnådde DocuSign på bara 90 dagar efter en omgjord webb.", proof4_title:"Fler hittar dig genom att söka på Google", proof4_body:"Att uppdatera och förbättra det ni redan har, istället för att skapa nytt, kan mångdubbla hur många som hittar er på Google. Så gjorde Backlinko, bara genom att uppdatera en gammal artikel.",
     contact_modal_title:"Hur vill ni nå oss?", contact_opt_whatsapp:"WhatsApp", contact_opt_call:"Ring", contact_opt_email:"Mejl", contact_email_subject:"Hur vill du ha det?", aria_contact:"Kontakta oss",
     eyebrow:"En IT-studio som frågar först",
     hero_lead:"Hur vill du ha det",
@@ -684,7 +719,8 @@ window.HDYW_I18N = {
     staffing_teaser:"هل تريد أن تعرف كيف ننظّم فريقنا ومع من ستتعامل فعليًا؟", staffing_teaser_link:"تعرّف على الاستوديو ←",
     reassure_line:"أولًا مكالمة مجانية لمدة 15 دقيقة. بلا عرض مبيعات وبلا التزام — نريد فقط أن نفهم ما تحتاجه.",
     teaser_title_v2:"ثلاث باقات، بسعر واضح لكل منها", teaser_body_v2:"ترتيب أفضل في جوجل، تقييمات 5 نجوم خلال ثوانٍ، قائمة أو كتالوج مصمم للجوال، محتوى أسبوعي، وموقع يبيع نيابة عنك — اختر الحجم المناسب، بدءًا من 99 € شهريًا.", teaser_price_v2:"Small, Medium, Large", teaser_cta_v2:"شاهد الباقات الثلاث ←",
-    testimonials_eyebrow:"ماذا يقول العملاء", testimonials_title:"تقييمات حقيقية، كلما استحققناها", testimonials_empty_title:"نحن جدد — يمكنك أن تكون أول من يترك تقييمًا", testimonials_empty_body:"نفضّل ألا نعرض لك شيئًا على أن نعرض لك شيئًا مزيفًا. ستحل التقييمات الحقيقية من عملاء حقيقيين محل هذا فور حصولنا عليها.", testimonials_leave_review:"تعاملت معنا من قبل؟ اترك تقييمًا",
+    testimonials_eyebrow:"مُثبَت في مكان آخر", testimonials_title:"نتائج حقيقية وموثّقة — بينما نحقق نتائجنا الخاصة", testimonials_empty_title:"نحن جدد — يمكنك أن تكون أول من يترك تقييمًا", testimonials_empty_body:"نفضّل ألا نعرض لك شيئًا على أن نعرض لك شيئًا مزيفًا. ستحل التقييمات الحقيقية من عملاء حقيقيين محل هذا فور حصولنا عليها.", testimonials_leave_review:"تعاملت معنا من قبل؟ اترك تقييمًا",
+    proof_carousel_note:"هذه دراسات حالة عامة وقابلة للتحقق من شركات أخرى، وليست من عملائنا بعد — نحن صريحون بشأن ذلك.", proof_carousel_link:"شاهد السبب في صفحة من نحن ←", proof1_title:"تقييمات أو قائمة فورية، بلمسة واحدة", proof1_body:"يقرّب أحدهم هاتفه من بطاقة، وخلال ثوانٍ يترك تقييم 5 نجوم أو يشاهد قائمتك أو كتالوجك، دون كتابة أي شيء. حققت Air Canada Vacations النتيجة نفسها مع عملائها.", proof2_title:"المزيد يتابعونك ويتذكّرونك", proof2_body:"نشر المحتوى بانتظام يجعل المزيد من الناس يتابعونك ويفكرون فيك عندما يحتاجون ما تقدّمه. هكذا ضاعفت Duolingo متابعيها بحملة واحدة على TikTok.", proof3_title:"موقع أفضل يجلب عددًا أكبر بكثير من الزوار", proof3_body:"إعادة تصميم موقعك وتنظيمه جيدًا يمكن أن تضاعف عدد زواره ومدة بقائهم فيه. هذا ما حققته DocuSign خلال 90 يومًا فقط بعد تجديد موقعها.", proof4_title:"المزيد يجدونك عبر البحث في جوجل", proof4_body:"تحديث وتحسين ما لديك بالفعل، بدل إنشاء شيء جديد، يمكن أن يضاعف عدد من يجدونك عبر جوجل. هكذا فعلت Backlinko، فقط بتحديث مقال قديم.",
     contact_modal_title:"كيف تريد التواصل معنا؟", contact_opt_whatsapp:"WhatsApp", contact_opt_call:"اتصال", contact_opt_email:"بريد إلكتروني", contact_email_subject:"كيف تريده؟", aria_contact:"تواصل معنا",
     eyebrow:"استوديو تقني يسأل أولاً",
     hero_lead:"كيف تريده",

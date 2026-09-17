@@ -659,7 +659,35 @@
 
   .section-tight{padding-block: clamp(2.6rem, 6vw, 4rem);}
 
-  /* ---------- Reassurance line under CTAs ---------- */
+  /* ---------- Sliding proof carousel (real, sourced results) ---------- */
+  .proof-carousel{position:relative; overflow:hidden; border-radius:var(--radius-l); margin-top:2.4rem; box-shadow:0 30px 60px -35px rgba(0,0,0,.5);}
+  .proof-carousel-track{display:flex; transition:transform .65s cubic-bezier(.4,0,.2,1);}
+  .proof-slide{
+    min-width:100%; padding:clamp(2.2rem,6vw,3.2rem) clamp(1.6rem,6vw,3.5rem);
+    background:var(--surface); border:none; text-align:center;
+    display:flex; flex-direction:column; align-items:center;
+  }
+  .proof-slide-stat{
+    font-family:var(--font-display); font-size:clamp(2.4rem,7vw,3.4rem); font-weight:700;
+    background:linear-gradient(90deg,var(--pink),var(--blue)); -webkit-background-clip:text; background-clip:text;
+    -webkit-text-fill-color:transparent; color:var(--pink); margin-bottom:.9rem; line-height:1;
+  }
+  .proof-slide-title{font-family:var(--font-display); font-weight:700; font-size:1.25rem; margin-bottom:.7rem; max-width:44ch;}
+  .proof-slide-body{color:var(--text-muted); font-size:.95rem; line-height:1.6; max-width:56ch;}
+  .proof-carousel-dots{display:flex; justify-content:center; gap:.5rem; padding:1.1rem 0; background:var(--surface);}
+  .proof-dot{width:8px; height:8px; border-radius:50%; background:var(--line); border:none; padding:0; cursor:pointer; transition:background .2s ease, transform .2s ease;}
+  .proof-dot.active{background:var(--pink); transform:scale(1.3);}
+
+  /* ---------- Incentive banner ---------- */
+  .incentive-banner{
+    display:flex; align-items:center; gap:1.1rem; flex-wrap:wrap; justify-content:center; text-align:center;
+    background:linear-gradient(135deg, rgba(255,62,108,.12), rgba(77,141,255,.08));
+    border:1px solid rgba(255,62,108,.25); border-radius:var(--radius-l);
+    padding:1.5rem 1.8rem; margin-top:2.6rem;
+  }
+  .incentive-banner svg{width:30px; height:30px; color:var(--pink); flex-shrink:0;}
+  .incentive-banner-text{font-size:.95rem; color:var(--text);}
+  .incentive-banner-text b{color:var(--pink);}
   .reassure{display:flex; align-items:center; gap:.5rem; margin-top:.9rem; font-size:.83rem; color:var(--text-muted);}
   .reassure svg{width:15px; height:15px; color:var(--blue); flex-shrink:0;}
 
