@@ -107,7 +107,7 @@
 
   // init theme (dark by default)
   var savedTheme = safeGet(STORAGE_THEME);
-  applyTheme(savedTheme === "light" ? "light" : "dark");
+  applyTheme(savedTheme === "dark" ? "dark" : "light");
 
   // language menu interactions
   var langTrigger = document.getElementById("langTrigger");
